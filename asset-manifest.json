@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://wskybig.github.io/Tabela/static/css/main.e6c13ad2.css",
+    "main.js": "https://wskybig.github.io/Tabela/static/js/main.4f8fe114.js",
+    "static/js/453.cd7cebbc.chunk.js": "https://wskybig.github.io/Tabela/static/js/453.cd7cebbc.chunk.js",
+    "index.html": "https://wskybig.github.io/Tabela/index.html",
+    "main.e6c13ad2.css.map": "https://wskybig.github.io/Tabela/static/css/main.e6c13ad2.css.map",
+    "main.4f8fe114.js.map": "https://wskybig.github.io/Tabela/static/js/main.4f8fe114.js.map",
+    "453.cd7cebbc.chunk.js.map": "https://wskybig.github.io/Tabela/static/js/453.cd7cebbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.4f8fe114.js"
+  ]
+}
