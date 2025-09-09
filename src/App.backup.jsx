@@ -1,6 +1,5 @@
-﻿import React from 'react'
+import React from 'react'
 import MyForm from './MyForm.jsx'
-import './styles.css'
 
 export default function App() {
   return <MyForm />
