@@ -1,34 +1,13 @@
-# Formularz logowania (demo)
+# Formularz testowy
 
-Krótki opis: Ten projekt zawiera prosty formularz „logowania”/rejestracji z polami:
-- Imię
-- Nazwisko
-- E-mail
-- Przycisk wysyłania
+Projekt zawiera prosty formularz (imi, nazwisko, e-mail) dostpny pod https://wskybig.github.io/Tabela/.
 
-Komponent formularza znajduje się w `src/LoginForm.js`, a przykładowe podłączenie w `src/App.jsx` (możesz zaimportować i wyrenderować `<LoginForm />`).
+## Scenariusze testowe
 
-## Testowanie
-
-Poniżej przykładowa tabela scenariuszy testowych dla formularza.
-
-| ID | Scenariusz | Kroki | Oczekiwany rezultat |
-|----|------------|-------|----------------------|
-| T1 | Render pól | Otwórz aplikację | Widzisz pola: Imię, Nazwisko, E-mail oraz przycisk „Wyślij”. |
-| T2 | Walidacja pustego imienia | Zostaw Imię puste, wypełnij pozostałe pola, kliknij „Wyślij” | Komunikat błędu o wymaganym imieniu. |
-| T3 | Walidacja pustego nazwiska | Zostaw Nazwisko puste, wypełnij pozostałe pola, kliknij „Wyślij” | Komunikat błędu o wymaganym nazwisku. |
-| T4 | Walidacja e-mail | Wpisz niepoprawny e-mail (bez `@`), kliknij „Wyślij” | Komunikat błędu „Email jest niepoprawny”. |
-| T5 | Sukces wysyłki | Wpisz poprawne Imię, Nazwisko i E-mail, kliknij „Wyślij” | Brak błędów; pojawia się potwierdzenie (alert/console) z danymi. |
-| T6 | Czyszczenie błędów | Po błędzie popraw dane i kliknij „Wyślij” | Komunikaty błędów znikają. |
-
-## Uruchamianie lokalnie
-
-- `npm install`
-- `npm start`
-
-## Publikacja (GitHub Pages)
-
-Repozytorium: `https://github.com/wskybig/Tabela`
-
-- `npm run deploy` (zbuduje i opublikuje do gałęzi `gh-pages`)
-
+| Nr | Dane wejciowe | Kroki uytkownika | Oczekiwany wynik |
+|----|----------------|------------------|------------------|
+| 1  | Puste wszystkie pola | Kliknicie 'Wylij' | Komunikat bdu (formularz nie zostaje wysany) |
+| 2  | Wpisane tylko imi | Kliknicie 'Wylij' | Komunikat bdu przy brakujcych polach |
+| 3  | Imi i nazwisko, brak e-maila | Kliknicie 'Wylij' | Komunikat bdu przy polu e-mail |
+| 4  | E-mail: user@ | Kliknicie 'Wylij' | Komunikat bdu 'niepoprawny e-mail' |
+| 5  | Imi: Jan, Nazwisko: Kowalski, E-mail: jan.kowalski@mail.com | Kliknicie 'Wylij' | Formularz zostaje poprawnie wysany |
