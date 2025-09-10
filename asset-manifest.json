@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Tabela/static/css/main.22d92739.css",
-    "main.js": "/Tabela/static/js/main.e2f555fc.js",
+    "main.js": "/Tabela/static/js/main.90baad24.js",
     "static/js/453.cd7cebbc.chunk.js": "/Tabela/static/js/453.cd7cebbc.chunk.js",
     "index.html": "/Tabela/index.html",
     "main.22d92739.css.map": "/Tabela/static/css/main.22d92739.css.map",
-    "main.e2f555fc.js.map": "/Tabela/static/js/main.e2f555fc.js.map",
+    "main.90baad24.js.map": "/Tabela/static/js/main.90baad24.js.map",
     "453.cd7cebbc.chunk.js.map": "/Tabela/static/js/453.cd7cebbc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22d92739.css",
-    "static/js/main.e2f555fc.js"
+    "static/js/main.90baad24.js"
   ]
 }
